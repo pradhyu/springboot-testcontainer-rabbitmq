@@ -7,7 +7,7 @@ import org.springframework.amqp.core.Queue;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Configuration;
 
-public class EmbeddedRabbitmqContainerAutoConfigurationIT extends AbstractIT
+public class EmbeddedRabbitmqContainerAutoConfigurationITTest extends AbstractIT
 {
     @Test
     public void testGeneratedProperties()

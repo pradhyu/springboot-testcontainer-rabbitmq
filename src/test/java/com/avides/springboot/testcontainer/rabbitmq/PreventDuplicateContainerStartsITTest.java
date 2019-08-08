@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-public class PreventDuplicateContainerStartsIT extends AbstractIT
+public class PreventDuplicateContainerStartsITTest extends AbstractIT
 {
     @Test
     public void testPreventDuplicateContainerStarts()
